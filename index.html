@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Stopwatch</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+
+    <h1 id="myH1"> Stopwatch</h1>
+
+    <div id="container">
+        <div id="display">00:00:00:00</div>
+        
+        <div id="button-container">
+            <div class="button-box">
+                <span class="button-label">Start</span>
+                <div id="controls">
+                    <button id="startBtn">▶</button>
+                </div>
+            </div>
+            
+            <div class="button-box">
+                <span class="button-label">Stop</span>
+                <div id="controls">
+                    <button id="stopBtn">⏹</button>
+                </div>
+            </div>
+            
+            <div class="button-box">
+                <span class="button-label">Reset</span>
+                <div id="controls">
+                    <button id="resetBtn">↺</button>
+                </div>
+            </div>
+            
+            <div class="button-box">
+                <span class="button-label">Lap</span>
+                <div id="controls">
+                    <button id="lapBtn">⏱</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="laps">
+            <h3>Lap Times</h3>
+            <!-- Lap times will be added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
